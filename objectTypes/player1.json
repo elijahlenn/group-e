@@ -1,0 +1,718 @@
+{
+	"name": "player1",
+	"plugin-id": "Sprite",
+	"sid": 400797394913020,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "attack",
+			"type": "number",
+			"desc": "",
+			"sid": 446874632541960
+		},
+		{
+			"name": "damage",
+			"type": "number",
+			"desc": "",
+			"sid": 170023181862350
+		}
+	],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Platform",
+			"name": "Platform",
+			"sid": 963202467803588
+		},
+		{
+			"behaviorId": "scrollto",
+			"name": "ScrollTo",
+			"sid": 451414434152610
+		},
+		{
+			"behaviorId": "bound",
+			"name": "BoundToLayout",
+			"sid": 603620931405876
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 419,
+						"height": 1162,
+						"originX": 0.5,
+						"originY": 1,
+						"originalSource": "/Users/elijahlennen/Desktop/final project e/idle.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 2829054,
+						"collisionPoly": {
+							"points": [
+								0,
+								0.017211703958692082,
+								0.36515513126491644,
+								0,
+								0.801909307875895,
+								0,
+								1,
+								0.003872633390705949,
+								1,
+								0.4061962134251293,
+								1,
+								0.9776247848537005,
+								0,
+								0.9913941480206541,
+								0,
+								0.4169535283993113
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 419,
+						"height": 1162,
+						"originX": 0.5,
+						"originY": 1,
+						"originalSource": "/Users/elijahlennen/Desktop/final project e/idle.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 1830604,
+						"collisionPoly": {
+							"points": [
+								0,
+								0.017211703958692082,
+								0.3651551312649164,
+								0,
+								0.801909307875895,
+								0,
+								1,
+								0.003872633390705949,
+								1,
+								0.4061962134251293,
+								1,
+								0.9776247848537005,
+								0,
+								0.9913941480206541,
+								0,
+								0.4169535283993113
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 419,
+						"height": 1162,
+						"originX": 0.5,
+						"originY": 1,
+						"originalSource": "/Users/elijahlennen/Desktop/final project e/idle.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 1192139,
+						"collisionPoly": {
+							"points": [
+								0,
+								0.017211703958692082,
+								0.3651551312649164,
+								0,
+								0.801909307875895,
+								0,
+								1,
+								0.003872633390705949,
+								1,
+								0.4061962134251293,
+								1,
+								0.9776247848537005,
+								0,
+								0.9913941480206541,
+								0,
+								0.4169535283993113
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 419,
+						"height": 1162,
+						"originX": 0.5,
+						"originY": 1,
+						"originalSource": "/Users/elijahlennen/Desktop/final project e/idle.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 5427445,
+						"collisionPoly": {
+							"points": [
+								1,
+								0.4169535283993113,
+								1,
+								0.9913941480206541,
+								0,
+								0.9776247848537005,
+								0,
+								0.4061962134251293,
+								0,
+								0.003872633390705949,
+								0.19809069212410502,
+								0,
+								0.6348448687350836,
+								0,
+								1,
+								0.017211703958692082
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 419,
+						"height": 1162,
+						"originX": 0.5,
+						"originY": 1,
+						"originalSource": "/Users/elijahlennen/Desktop/final project e/idle.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 1912219,
+						"collisionPoly": {
+							"points": [
+								1,
+								0.4169535283993113,
+								1,
+								0.9913941480206541,
+								0,
+								0.9776247848537005,
+								0,
+								0.4061962134251293,
+								0,
+								0.003872633390705949,
+								0.19809069212410502,
+								0,
+								0.6348448687350836,
+								0,
+								1,
+								0.017211703958692082
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 419,
+						"height": 1162,
+						"originX": 0.5,
+						"originY": 1,
+						"originalSource": "/Users/elijahlennen/Desktop/final project e/idle.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 5595369,
+						"collisionPoly": {
+							"points": [
+								1,
+								0.4169535283993113,
+								1,
+								0.9913941480206541,
+								0,
+								0.9776247848537005,
+								0,
+								0.4061962134251293,
+								0,
+								0.003872633390705949,
+								0.19809069212410502,
+								0,
+								0.6348448687350836,
+								0,
+								1,
+								0.017211703958692082
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 832421440904385,
+				"name": "idol1",
+				"isLooping": true,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 2
+			},
+			{
+				"frames": [
+					{
+						"width": 1097,
+						"height": 1099,
+						"originX": 0.5,
+						"originY": 1,
+						"originalSource": "/Users/elijahlennen/Desktop/final project e/Run-1.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 6756678,
+						"collisionPoly": {
+							"points": [
+								0,
+								0.06369426751592372,
+								0.4512306289881497,
+								0.05459508644222017,
+								0.7766636280765737,
+								0.06005459508644235,
+								0.7702825888787599,
+								0.40809827115559577,
+								0.7657247037374663,
+								0.4899909008189263,
+								0.7648131267092092,
+								1,
+								0,
+								1,
+								0,
+								0.4899909008189264
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 809,
+						"height": 1034,
+						"originX": 0.5,
+						"originY": 1,
+						"originalSource": "/Users/elijahlennen/Desktop/final project e/Run-2.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 6750059,
+						"collisionPoly": {
+							"points": [
+								0.22620519159456146,
+								0.3742746615087052,
+								0.2101359703337462,
+								0.021276595744680934,
+								1,
+								0.025145067698259353,
+								1,
+								0.5401353965183753,
+								1,
+								0.99129593810445,
+								0.635352286773795,
+								1,
+								0.44870210135970345,
+								1,
+								0.22126081582200274,
+								0.9811411992263069
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 632,
+						"height": 1057,
+						"originX": 0.5,
+						"originY": 1,
+						"originalSource": "/Users/elijahlennen/Desktop/final project e/Run-3.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 7612015,
+						"collisionPoly": {
+							"points": [
+								0,
+								1,
+								0.5268987341772156,
+								1,
+								0.6170886075949378,
+								0.7909176915799451,
+								0.6265822784810119,
+								0.5624408703878905,
+								0.6503164556962022,
+								0.44370860927152317,
+								0.7357594936708864,
+								0.0009460737937553214,
+								0,
+								0.008514664143803379,
+								0,
+								0.4867549668874172
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 525,
+						"height": 1106,
+						"originX": 0.5,
+						"originY": 1,
+						"originalSource": "/Users/elijahlennen/Desktop/final project e/Run-4.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 779519,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								1,
+								0,
+								1,
+								0.4430379746835439,
+								1,
+								0.7500000000000001,
+								1,
+								0.9584086799276673,
+								0.5676190476190466,
+								0.9611211573236885,
+								0,
+								0.9665461121157324,
+								0,
+								0.41546112115732287
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 774,
+						"height": 993,
+						"originX": 0.5,
+						"originY": 1,
+						"originalSource": "/Users/elijahlennen/Desktop/final project e/Run-5.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 751936,
+						"collisionPoly": {
+							"points": [
+								0,
+								0.01611278952668635,
+								0.41343669250646053,
+								0.00805639476334349,
+								0.8307493540051674,
+								0,
+								0.8359173126614987,
+								0.1764853977844912,
+								0.835917312661499,
+								0.41440080563947657,
+								0.8578811369509062,
+								0.6706948640483372,
+								0.8837209302325585,
+								0.9949647532729103,
+								0.35529715762273767,
+								0.9989929506545827,
+								0,
+								1
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 1151,
+						"height": 947,
+						"originX": 0.5,
+						"originY": 1,
+						"originalSource": "/Users/elijahlennen/Desktop/final project e/Run-6.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 3947365,
+						"collisionPoly": {
+							"points": [
+								0,
+								0.01795142555438232,
+								0.7019982623805386,
+								0,
+								0.729800173761946,
+								0.19535374868004188,
+								0.7332754126846228,
+								0.5221752903907071,
+								0.7384882710686351,
+								0.6135163674762403,
+								0.7506516072980023,
+								0.9662090813093995,
+								0,
+								0.9545934530095039,
+								0,
+								0.5538542766631468
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 714,
+						"height": 1037,
+						"originX": 0.5,
+						"originY": 1,
+						"originalSource": "/Users/elijahlennen/Desktop/final project e/Run-7.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 9208011,
+						"collisionPoly": {
+							"points": [
+								0,
+								1,
+								0.9803921568627461,
+								1,
+								0.9621848739495799,
+								0.4136933461909354,
+								0.9957983193277311,
+								0.21166827386692383,
+								0.9873949579831935,
+								0.002892960462873633,
+								0.6666666666666666,
+								0,
+								0,
+								0,
+								0,
+								0.5549662487945997
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 888153820610130,
+				"name": "run1",
+				"isLooping": true,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 8
+			},
+			{
+				"frames": [
+					{
+						"width": 2019,
+						"height": 1408,
+						"originX": 0.6054977711738484,
+						"originY": 0.9992897727272727,
+						"originalSource": "/Users/elijahlennen/Desktop/final project e/attack-3.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 4286977,
+						"collisionPoly": {
+							"points": [
+								0.17285785042100052,
+								0.06463068181818182,
+								0.6054977711738484,
+								0.19176136363636365,
+								0.9653293709757307,
+								0.16832386363636365,
+								0.7246161466072313,
+								0.3895596590909091,
+								0.8013868251609709,
+								0.375,
+								0.6054977711738484,
+								0.34801136363636365,
+								0.024764735017335313,
+								0.9261363636363636,
+								0.19366022783556214,
+								0.3895596590909091
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 2388,
+						"height": 1686,
+						"originX": 0.5961055276381909,
+						"originY": 1.019572953736655,
+						"originalSource": "/Users/elijahlennen/Desktop/final project e/attack-4.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 1308763,
+						"collisionPoly": {
+							"points": [
+								0.1704355108877722,
+								0.20877817319098457,
+								0.5961055276381909,
+								0.03202846975088968,
+								0.9422110552763819,
+								0.3208778173190985,
+								0.6302345058626466,
+								0.486061684460261,
+								0.8199329983249581,
+								0.4774614472123369,
+								0.5961055276381909,
+								0.4976275207591933,
+								0.04061976549413735,
+								0.9466192170818505,
+								0.1637353433835846,
+								0.486061684460261
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 2631,
+						"height": 1788,
+						"originX": 0.5532117065754466,
+						"originY": 1.0061521252796422,
+						"originalSource": "/Users/elijahlennen/Desktop/final project e/attack-5.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 2543582,
+						"collisionPoly": {
+							"points": [
+								0.21094640820980615,
+								0.2483221476510067,
+								0.5532117065754466,
+								0.33221476510067116,
+								0.8403648802736602,
+								0.3288590604026846,
+								0.7506651463321931,
+								0.47231543624161076,
+								0.7476244773850247,
+								0.4787472035794183,
+								0.5532117065754466,
+								0.4809843400447428,
+								0.04637020144431775,
+								0.9379194630872483,
+								0.18966172557962752,
+								0.47231543624161076
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 3128,
+						"height": 1709,
+						"originX": 0.5123081841432225,
+						"originY": 1.0005851375073143,
+						"originalSource": "/Users/elijahlennen/Desktop/final project e/attack-6.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 30674,
+						"collisionPoly": {
+							"points": [
+								0.16272378516624042,
+								0.17320070216500877,
+								0.5123081841432225,
+								0.3382094792276185,
+								0.8583759590792839,
+								0.17905207723815098,
+								0.8740409207161125,
+								0.4253949678174371,
+								0.7605498721227621,
+								0.49210064365125805,
+								0.5123081841432225,
+								0.6021064950263312,
+								0.018861892583120203,
+								0.9403159742539496,
+								0.14418158567774933,
+								0.4253949678174371
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 3049,
+						"height": 1457,
+						"originX": 0.5126270908494588,
+						"originY": 1.0123541523678792,
+						"originalSource": "/Users/elijahlennen/Desktop/final project e/attack-7.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 2489646,
+						"collisionPoly": {
+							"points": [
+								0.21580846179075105,
+								0.08922443376801648,
+								0.5126270908494588,
+								0.21413864104323954,
+								0.7294194817973106,
+								0.2560054907343857,
+								0.9294850770744506,
+								0.3225806451612903,
+								0.7500819940964251,
+								0.4317089910775566,
+								0.5126270908494588,
+								0.4783802333562114,
+								0.029845851098720892,
+								0.9444063143445436,
+								0.1731715316497212,
+								0.3225806451612903
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 3064,
+						"height": 1821,
+						"originX": 0.5101174934725848,
+						"originY": 1.0098846787479407,
+						"originalSource": "/Users/elijahlennen/Desktop/final project e/attack-8.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 602680,
+						"collisionPoly": {
+							"points": [
+								0.21475195822454307,
+								0.271279516749039,
+								0.5101174934725848,
+								0.32784184514003295,
+								0.8488903394255874,
+								0.19769357495881384,
+								0.8671671018276762,
+								0.45799011532125206,
+								0.7278067885117493,
+								0.514003294892916,
+								0.5101174934725848,
+								0.6095551894563427,
+								0.029699738903394255,
+								0.9555189456342669,
+								0.17232375979112272,
+								0.45799011532125206
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 3236,
+						"height": 1800,
+						"originX": 0.49521013597033375,
+						"originY": 1.0005555555555556,
+						"originalSource": "/Users/elijahlennen/Desktop/final project e/attack-9.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 2489410,
+						"collisionPoly": {
+							"points": [
+								0.1572929542645241,
+								0.215,
+								0.49521013597033375,
+								0.3011111111111111,
+								0.7753399258343634,
+								0.31833333333333336,
+								0.7892459826946848,
+								0.45444444444444443,
+								0.7129171817058096,
+								0.4777777777777778,
+								0.49521013597033375,
+								0.5066666666666667,
+								0.01823238566131026,
+								0.9433333333333334,
+								0.13936959208899874,
+								0.45444444444444443
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 989169708329111,
+				"name": "attack",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 12
+			}
+		],
+		"subfolders": []
+	}
+}

@@ -1,0 +1,20 @@
+{
+	"name": "TiledBackground2",
+	"plugin-id": "TiledBg",
+	"sid": 167789739271444,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"image": {
+		"width": 224,
+		"height": 288,
+		"originX": 0.5,
+		"originY": 0.5,
+		"originalSource": "C:\\Users\\Miss America\\Desktop\\tileset.png",
+		"exportFormat": "png",
+		"exportQuality": 0.8,
+		"imageSpriteId": 8176515,
+		"useCollisionPoly": true
+	}
+}

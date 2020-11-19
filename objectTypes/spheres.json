@@ -1,0 +1,55 @@
+{
+	"name": "spheres",
+	"plugin-id": "Sprite",
+	"sid": 584256764093679,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Rotate",
+			"name": "Rotate",
+			"sid": 502462863349340
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 243,
+						"height": 240,
+						"originX": 0.48148148148148145,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 2162817,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.9958847736625515,
+								0,
+								0.9958847736625515,
+								1,
+								0,
+								1
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 413464329949607,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

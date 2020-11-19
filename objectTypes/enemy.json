@@ -1,0 +1,57 @@
+{
+	"name": "enemy",
+	"plugin-id": "Sprite",
+	"sid": 532083547244762,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 18,
+						"height": 17,
+						"originX": 6.083333333333333,
+						"originY": 0.4117647058823529,
+						"originalSource": "C:\\Users\\Miss America\\Desktop\\The Game Creator's Pack\\Graphic Pack\\Platformer_SpriteSheet.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 7608928,
+						"collisionPoly": {
+							"points": [
+								0.16666666666666666,
+								0,
+								1,
+								0,
+								1,
+								0,
+								1,
+								0.4117647058823529,
+								1,
+								1,
+								1,
+								1,
+								1,
+								1,
+								0.4444444444444444,
+								0.4117647058823529
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 257929703769849,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

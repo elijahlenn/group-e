@@ -1,0 +1,62 @@
+{
+	"name": "water1",
+	"plugin-id": "Sprite",
+	"sid": 473918447754713,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [
+		{
+			"effectId": "warpripple",
+			"name": "WarpRipple"
+		}
+	],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 81,
+						"height": 74,
+						"originX": -2.4691358024691357,
+						"originY": 1.2567567567567568,
+						"originalSource": "C:\\Users\\Miss America\\Desktop\\Enviroment.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 3019474,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0,
+								0,
+								1,
+								0,
+								1,
+								1,
+								1,
+								1,
+								0,
+								1,
+								0,
+								1,
+								0,
+								1
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 671411754306197,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

@@ -1,0 +1,63 @@
+{
+	"name": "Sprite",
+	"plugin-id": "Sprite",
+	"sid": 295952203604115,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Sin",
+			"name": "Sine",
+			"sid": 287791360841964
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 31,
+						"height": 32,
+						"originX": 3.8709677419354835,
+						"originY": -0.375,
+						"originalSource": "C:\\Users\\Miss America\\Desktop\\TiledBackground4 (2).png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 8881605,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								1,
+								0,
+								1,
+								0,
+								1,
+								0,
+								1,
+								1,
+								1,
+								1,
+								0,
+								1,
+								0,
+								0
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 517441311344477,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

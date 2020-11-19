@@ -1,0 +1,39 @@
+{
+	"name": "Tilemap",
+	"plugin-id": "Tilemap",
+	"sid": 159903208752794,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 983896343695626
+		}
+	],
+	"effectTypes": [],
+	"image": {
+		"width": 226,
+		"height": 290,
+		"originX": 0.5,
+		"originY": 0.5,
+		"originalSource": "C:\\Users\\Miss America\\Desktop\\tileset.png",
+		"exportFormat": "png",
+		"exportQuality": 0.8,
+		"imageSpriteId": 4895636,
+		"collisionPoly": {
+			"points": [
+				0.004424778761061947,
+				0.0034482758620689655,
+				0.995575221238938,
+				0.0034482758620689655,
+				0.995575221238938,
+				0.996551724137931,
+				0.004424778761061947,
+				0.996551724137931
+			]
+		},
+		"useCollisionPoly": true
+	},
+	"tile-collision-polys": {}
+}
