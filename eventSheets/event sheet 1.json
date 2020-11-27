@@ -679,6 +679,27 @@
 				}
 			],
 			"sid": 187512508864765
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-animation-finished",
+					"objectClass": "player1",
+					"sid": 676283097871352,
+					"parameters": {
+						"animation": "\"attack\""
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "alien1",
+					"sid": 432089082128419
+				}
+			],
+			"sid": 762720167396469
 		}
 	],
 	"sid": 347343877989045
