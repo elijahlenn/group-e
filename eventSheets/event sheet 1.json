@@ -806,6 +806,27 @@
 			],
 			"sid": 275651586548514,
 			"disabled": true
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "alien1",
+					"sid": 818289290200685,
+					"parameters": {
+						"object": "Sprite7"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "alien1",
+					"sid": 359946056963139
+				}
+			],
+			"sid": 650381967638913
 		}
 	],
 	"sid": 347343877989045

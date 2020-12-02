@@ -160,7 +160,11 @@
 			"Audio",
 			"alin",
 			"flame",
-			"hitbox"
+			"hitbox",
+			"Sprite4",
+			"Sprite5",
+			"Sprite6",
+			"Sprite7"
 		],
 		"subfolders": []
 	},
