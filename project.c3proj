@@ -158,7 +158,9 @@
 			"alienP",
 			"Particles",
 			"Audio",
-			"alin"
+			"alin",
+			"flame",
+			"hitbox"
 		],
 		"subfolders": []
 	},

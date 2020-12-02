@@ -6,9 +6,9 @@
 	"instanceVariables": [],
 	"behaviorTypes": [
 		{
-			"behaviorId": "Bullet",
-			"name": "Bullet",
-			"sid": 424010864242367
+			"behaviorId": "Sin",
+			"name": "Sine",
+			"sid": 360781868194847
 		}
 	],
 	"effectTypes": [],

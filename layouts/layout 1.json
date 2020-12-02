@@ -306,8 +306,8 @@
 						"tile-y-spacing": 0
 					},
 					"world": {
-						"x": -6,
-						"y": -6,
+						"x": -11,
+						"y": -25,
 						"width": 1737,
 						"height": 995,
 						"originX": 0,
@@ -1171,94 +1171,6 @@
 					}
 				},
 				{
-					"type": "enemy2",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 46,
-					"instanceVariables": {
-						"patrol": 0,
-						"hitPoints": 3
-					},
-					"behaviors": {
-						"Bullet": {
-							"properties": {
-								"speed": 400,
-								"acceleration": 0,
-								"gravity": 0,
-								"bounce-off-solids": false,
-								"set-angle": true,
-								"step": false,
-								"enabled": true
-							}
-						}
-					},
-					"world": {
-						"x": 944,
-						"y": -582,
-						"width": 32,
-						"height": 27,
-						"originX": -0.325,
-						"originY": -2.388888888888889,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "enemy2",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 49,
-					"instanceVariables": {
-						"patrol": 0,
-						"hitPoints": 3
-					},
-					"behaviors": {
-						"Bullet": {
-							"properties": {
-								"speed": 150,
-								"acceleration": 0,
-								"gravity": 0,
-								"bounce-off-solids": false,
-								"set-angle": true,
-								"step": false,
-								"enabled": true
-							}
-						}
-					},
-					"world": {
-						"x": 527,
-						"y": -266,
-						"width": 41.9055903181835,
-						"height": 34.40805510564745,
-						"originX": -0.325,
-						"originY": -2.388888888888889,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0.8871126704198877,
-						"zElevation": 0
-					}
-				},
-				{
 					"type": "spheres",
 					"properties": {
 						"initially-visible": true,
@@ -1467,21 +1379,24 @@
 					"uid": 52,
 					"instanceVariables": {},
 					"behaviors": {
-						"Bullet": {
+						"Sine": {
 							"properties": {
-								"speed": 20,
-								"acceleration": 0,
-								"gravity": 0,
-								"bounce-off-solids": false,
-								"set-angle": true,
-								"step": false,
-								"enabled": true
+								"movement": "horizontal",
+								"wave": "sine",
+								"period": 4,
+								"period-random": 0,
+								"period-offset": 0,
+								"period-offset-random": 0,
+								"magnitude": 50,
+								"magnitude-random": 0,
+								"enabled": true,
+								"live-preview": false
 							}
 						}
 					},
 					"world": {
-						"x": 334.69640778770076,
-						"y": -47.84692706354615,
+						"x": 557,
+						"y": 244,
 						"width": 76,
 						"height": 94,
 						"originX": 0.5,
@@ -1492,271 +1407,7 @@
 							1,
 							1
 						],
-						"angle": 5.656960320394307,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "enemy2",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 41,
-					"instanceVariables": {
-						"patrol": 0,
-						"hitPoints": 3
-					},
-					"behaviors": {
-						"Bullet": {
-							"properties": {
-								"speed": 150,
-								"acceleration": 0,
-								"gravity": 0,
-								"bounce-off-solids": false,
-								"set-angle": true,
-								"step": false,
-								"enabled": true
-							}
-						}
-					},
-					"world": {
-						"x": 775,
-						"y": -213,
-						"width": 41.9055903181835,
-						"height": 34.40805510564745,
-						"originX": -0.325,
-						"originY": -2.388888888888889,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0.8871126704198877,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "enemy2",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 42,
-					"instanceVariables": {
-						"patrol": 0,
-						"hitPoints": 3
-					},
-					"behaviors": {
-						"Bullet": {
-							"properties": {
-								"speed": 150,
-								"acceleration": 0,
-								"gravity": 0,
-								"bounce-off-solids": false,
-								"set-angle": true,
-								"step": false,
-								"enabled": true
-							}
-						}
-					},
-					"world": {
-						"x": 966,
-						"y": -174,
-						"width": 41.9055903181835,
-						"height": 34.40805510564745,
-						"originX": -0.325,
-						"originY": -2.388888888888889,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0.8871126704198877,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "enemy2",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 43,
-					"instanceVariables": {
-						"patrol": 0,
-						"hitPoints": 3
-					},
-					"behaviors": {
-						"Bullet": {
-							"properties": {
-								"speed": 150,
-								"acceleration": 0,
-								"gravity": 0,
-								"bounce-off-solids": false,
-								"set-angle": true,
-								"step": false,
-								"enabled": true
-							}
-						}
-					},
-					"world": {
-						"x": 1107,
-						"y": 51,
-						"width": 41.9055903181835,
-						"height": 34.40805510564745,
-						"originX": -0.325,
-						"originY": -2.388888888888889,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0.008594377090792804,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "enemy2",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 44,
-					"instanceVariables": {
-						"patrol": 0,
-						"hitPoints": 3
-					},
-					"behaviors": {
-						"Bullet": {
-							"properties": {
-								"speed": 150,
-								"acceleration": 0,
-								"gravity": 0,
-								"bounce-off-solids": false,
-								"set-angle": true,
-								"step": false,
-								"enabled": true
-							}
-						}
-					},
-					"world": {
-						"x": 1028,
-						"y": -274,
-						"width": 41.9055903181835,
-						"height": 34.40805510564745,
-						"originX": -0.325,
-						"originY": -2.388888888888889,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 5.351362781156661,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "enemy2",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 45,
-					"instanceVariables": {
-						"patrol": 0,
-						"hitPoints": 3
-					},
-					"behaviors": {
-						"Bullet": {
-							"properties": {
-								"speed": 150,
-								"acceleration": 0,
-								"gravity": 0,
-								"bounce-off-solids": false,
-								"set-angle": true,
-								"step": false,
-								"enabled": true
-							}
-						}
-					},
-					"world": {
-						"x": 1461,
-						"y": 34,
-						"width": 41.9055903181835,
-						"height": 34.40805510564745,
-						"originX": -0.325,
-						"originY": -2.388888888888889,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0.08537963959805772,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "enemy2",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 47,
-					"instanceVariables": {
-						"patrol": 0,
-						"hitPoints": 3
-					},
-					"behaviors": {
-						"Bullet": {
-							"properties": {
-								"speed": 150,
-								"acceleration": 0,
-								"gravity": 0,
-								"bounce-off-solids": false,
-								"set-angle": true,
-								"step": false,
-								"enabled": true
-							}
-						}
-					},
-					"world": {
-						"x": 1351,
-						"y": 118,
-						"width": 41.9055903181835,
-						"height": 34.40805510564745,
-						"originX": -0.325,
-						"originY": -2.388888888888889,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0.004748615810456158,
+						"angle": 0.00591297474371455,
 						"zElevation": 0
 					}
 				},
@@ -1875,95 +1526,111 @@
 					}
 				},
 				{
-					"type": "enemy2",
+					"type": "alienP",
 					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
+						"rate": 50,
+						"spray-cone": 60,
+						"type": "continuous-spray",
+						"object": -1,
+						"live-preview": false,
+						"speed": 200,
+						"size": 32,
+						"opacity": 100,
+						"grow-rate": 0,
+						"x-randomiser": 0,
+						"y-randomiser": 0,
+						"initial-speed-randomiser": 0,
+						"size-randomiser": 0,
+						"grow-rate-randomiser": 0,
+						"acceleration": -150,
+						"gravity": 0,
+						"angle-randomiser": 0,
+						"life-speed-randomiser": 800,
+						"opacity-randomiser": 0,
+						"destroy-mode": "fade-to-invisible",
+						"timeout": 1
 					},
-					"uid": 54,
-					"instanceVariables": {
-						"patrol": 0,
-						"hitPoints": 3
-					},
+					"uid": 41,
+					"instanceVariables": {},
 					"behaviors": {
-						"Bullet": {
+						"Sine": {
 							"properties": {
-								"speed": 150,
-								"acceleration": 0,
-								"gravity": 0,
-								"bounce-off-solids": false,
-								"set-angle": true,
-								"step": false,
-								"enabled": true
+								"movement": "vertical",
+								"wave": "sine",
+								"period": 4,
+								"period-random": 0,
+								"period-offset": 0,
+								"period-offset-random": 0,
+								"magnitude": 50,
+								"magnitude-random": 0,
+								"enabled": true,
+								"live-preview": false
 							}
 						}
 					},
 					"world": {
-						"x": 563,
-						"y": -40,
-						"width": 41.9055903181835,
-						"height": 34.40805510564745,
-						"originX": -0.325,
-						"originY": -2.388888888888889,
+						"x": 1464,
+						"y": 180,
+						"width": 76,
+						"height": 94,
+						"originX": 0,
+						"originY": 0.5,
 						"color": [
 							1,
 							1,
 							1,
 							1
 						],
-						"angle": 0.8871126704198877,
+						"angle": 0,
 						"zElevation": 0
 					}
 				},
 				{
-					"type": "enemy2",
+					"type": "alin",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Animation 1",
+						"initial-animation": "idol",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 55,
-					"instanceVariables": {
-						"patrol": 0,
-						"hitPoints": 3
-					},
+					"uid": 42,
+					"instanceVariables": {},
 					"behaviors": {
-						"Bullet": {
+						"Sine": {
 							"properties": {
-								"speed": 150,
-								"acceleration": 0,
-								"gravity": 0,
-								"bounce-off-solids": false,
-								"set-angle": true,
-								"step": false,
-								"enabled": true
+								"movement": "horizontal",
+								"wave": "sine",
+								"period": 4,
+								"period-random": 0,
+								"period-offset": 0,
+								"period-offset-random": 0,
+								"magnitude": 50,
+								"magnitude-random": 0,
+								"enabled": true,
+								"live-preview": false
 							}
 						}
 					},
 					"world": {
-						"x": 1252,
-						"y": -114,
-						"width": 41.9055903181835,
-						"height": 34.40805510564745,
-						"originX": -0.325,
-						"originY": -2.388888888888889,
+						"x": 1129,
+						"y": 271,
+						"width": 76,
+						"height": 94,
+						"originX": 0.5,
+						"originY": 1,
 						"color": [
 							1,
 							1,
 							1,
 							1
 						],
-						"angle": 0.8871126704198877,
+						"angle": 0.00591297474371455,
 						"zElevation": 0
 					}
 				},
 				{
-					"type": "enemy2",
+					"type": "flame",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -1971,38 +1638,52 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 56,
-					"instanceVariables": {
-						"patrol": 0,
-						"hitPoints": 3
-					},
-					"behaviors": {
-						"Bullet": {
-							"properties": {
-								"speed": 150,
-								"acceleration": 0,
-								"gravity": 0,
-								"bounce-off-solids": false,
-								"set-angle": true,
-								"step": false,
-								"enabled": true
-							}
-						}
-					},
+					"uid": 43,
+					"instanceVariables": {},
+					"behaviors": {},
 					"world": {
-						"x": 1025,
-						"y": -279,
-						"width": 41.9055903181835,
-						"height": 34.40805510564745,
-						"originX": -0.325,
-						"originY": -2.388888888888889,
+						"x": -513.4018691588785,
+						"y": 659.9139206455952,
+						"width": 187,
+						"height": 88,
+						"originX": 0.6074766355140186,
+						"originY": 0.7262945527908541,
 						"color": [
 							1,
 							1,
 							1,
 							1
 						],
-						"angle": 2.452480958751344,
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "hitbox",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 44,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": -64.0695121200132,
+						"y": 299.60116664094807,
+						"width": 45.45630919618111,
+						"height": 20.820131216831783,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
 						"zElevation": 0
 					}
 				}

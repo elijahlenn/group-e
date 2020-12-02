@@ -12,6 +12,7 @@
 			"sid": 591863864822358
 		},
 		{
+			"breakpoint": true,
 			"eventType": "group",
 			"disabled": false,
 			"title": "player ",
@@ -38,7 +39,8 @@
 							"behaviorType": "Platform"
 						}
 					],
-					"sid": 802602196835136
+					"sid": 802602196835136,
+					"disabled": true
 				},
 				{
 					"eventType": "block",
@@ -381,6 +383,58 @@
 						}
 					],
 					"sid": 427576638380090
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "player1",
+							"sid": 640088549359558,
+							"parameters": {
+								"object": "alin"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "player1",
+							"sid": 600928642725689
+						},
+						{
+							"id": "restart-layout",
+							"objectClass": "System",
+							"sid": 881111995728115
+						}
+					],
+					"sid": 483412300368224
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "player1",
+							"sid": 424903094466534,
+							"parameters": {
+								"object": "alienP"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "player1",
+							"sid": 611451528761795
+						},
+						{
+							"id": "restart-layout",
+							"objectClass": "System",
+							"sid": 320645662652063
+						}
+					],
+					"sid": 649244541672986
 				}
 			],
 			"sid": 521106908829059
@@ -616,16 +670,7 @@
 		},
 		{
 			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-collision-with-another-object",
-					"objectClass": "alien1",
-					"sid": 488921468224114,
-					"parameters": {
-						"object": "player1"
-					}
-				}
-			],
+			"conditions": [],
 			"actions": [],
 			"sid": 597701794973998
 		},
@@ -678,7 +723,8 @@
 					"sid": 756281059069171
 				}
 			],
-			"sid": 187512508864765
+			"sid": 187512508864765,
+			"disabled": true
 		},
 		{
 			"eventType": "block",
@@ -694,12 +740,72 @@
 			],
 			"actions": [
 				{
-					"id": "destroy",
-					"objectClass": "alien1",
-					"sid": 432089082128419
+					"id": "create-object",
+					"objectClass": "System",
+					"sid": 199102656177226,
+					"parameters": {
+						"object-to-create": "flame",
+						"layer": "0",
+						"x": "0",
+						"y": "0"
+					}
 				}
 			],
-			"sid": 762720167396469
+			"sid": 762720167396469,
+			"disabled": true
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "key-is-down",
+					"objectClass": "Keyboard",
+					"sid": 225903660957499,
+					"parameters": {
+						"key": 38
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "player1",
+					"sid": 617979194185765,
+					"parameters": {
+						"animation": "\"jump\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 449255440737686
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "key-is-down",
+					"objectClass": "Keyboard",
+					"sid": 783589685456404,
+					"parameters": {
+						"key": 32
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "create-object",
+					"objectClass": "System",
+					"sid": 186963728089699,
+					"parameters": {
+						"object-to-create": "flame",
+						"layer": "0",
+						"x": "0",
+						"y": "0"
+					}
+				}
+			],
+			"sid": 275651586548514,
+			"disabled": true
 		}
 	],
 	"sid": 347343877989045
