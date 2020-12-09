@@ -1,7 +1,7 @@
 {
 	"name": "Sprite3",
 	"plugin-id": "Sprite",
-	"sid": 257802187420194,
+	"sid": 490470843139788,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -11,39 +11,19 @@
 			{
 				"frames": [
 					{
-						"width": 49,
-						"height": 51,
-						"originX": 0.42857142857142855,
-						"originY": 3.803921568627451,
-						"originalSource": "C:\\Users\\Miss America\\Desktop\\Enviroment.png",
+						"width": 250,
+						"height": 250,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 3165372,
-						"collisionPoly": {
-							"points": [
-								0,
-								0.35294117647058826,
-								0.42857142857142855,
-								0.019607843137254867,
-								1,
-								0.2549019607843138,
-								0,
-								1,
-								1,
-								1,
-								0.42857142857142855,
-								1,
-								0,
-								1,
-								0,
-								1
-							]
-						},
+						"imageSpriteId": 7012974,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 928690177130577,
+				"sid": 151722637448385,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

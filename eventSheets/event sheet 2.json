@@ -1,8 +1,11 @@
 {
 	"name": "Event sheet 2",
 <<<<<<< HEAD
+<<<<<<< HEAD
 	"events": [],
 =======
+=======
+>>>>>>> parent of 6d98c02... stuff
 	"events": [
 		{
 			"eventType": "group",
@@ -60,6 +63,33 @@
 						}
 					],
 					"sid": 544057804267319
+<<<<<<< HEAD
+=======
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-key-pressed",
+							"objectClass": "Keyboard",
+							"sid": 503910698839565,
+							"parameters": {
+								"key": 32
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 521476816428499,
+							"parameters": {
+								"seconds": "2"
+							}
+						}
+					],
+					"sid": 213143867590963
+>>>>>>> parent of 6d98c02... stuff
 				}
 			],
 			"sid": 402227391043422
@@ -292,6 +322,9 @@
 			"sid": 691739453354606
 		}
 	],
+<<<<<<< HEAD
 >>>>>>> parent of 25d14ee... tried to make hit box work added jump animations
+=======
+>>>>>>> parent of 6d98c02... stuff
 	"sid": 774599449131566
 }

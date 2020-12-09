@@ -56,16 +56,16 @@
 		},
 		{
 			"type": "behavior",
-			"id": "Rotate",
-			"name": "Rotate",
+			"id": "solid",
+			"name": "Solid",
 			"author": "Scirra",
 			"version": "r225",
 			"bundled": false
 		},
 		{
 			"type": "behavior",
-			"id": "solid",
-			"name": "Solid",
+			"id": "Rotate",
+			"name": "Rotate",
 			"author": "Scirra",
 			"version": "r225",
 			"bundled": false
@@ -176,8 +176,7 @@
 	},
 	"layouts": {
 		"items": [
-			"Layout 1",
-			"Layout 2"
+			"Layout 1"
 		],
 		"subfolders": []
 	},

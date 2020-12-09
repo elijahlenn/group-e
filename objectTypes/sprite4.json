@@ -1,55 +1,29 @@
 {
 	"name": "Sprite4",
 	"plugin-id": "Sprite",
-	"sid": 209467729975617,
+	"sid": 288112226224055,
 	"isGlobal": false,
 	"instanceVariables": [],
-	"behaviorTypes": [
-		{
-			"behaviorId": "Rotate",
-			"name": "Rotate",
-			"sid": 439683224168299
-		}
-	],
+	"behaviorTypes": [],
 	"effectTypes": [],
 	"animations": {
 		"items": [
 			{
 				"frames": [
 					{
-						"width": 80,
-						"height": 74,
-						"originX": -1.5,
-						"originY": 1.2567567567567568,
-						"originalSource": "C:\\Users\\Miss America\\Desktop\\Enviroment.png",
+						"width": 250,
+						"height": 250,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 8394110,
-						"collisionPoly": {
-							"points": [
-								0,
-								0,
-								0,
-								0,
-								1,
-								0,
-								0,
-								1,
-								1,
-								1,
-								0,
-								1,
-								0,
-								1,
-								0,
-								1
-							]
-						},
+						"imageSpriteId": 6028447,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 727574288235174,
+				"sid": 724093750690000,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,
