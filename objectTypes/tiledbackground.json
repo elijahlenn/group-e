@@ -1,7 +1,7 @@
 {
 	"name": "TiledBackground",
 	"plugin-id": "TiledBg",
-	"sid": 234650562656922,
+	"sid": 321503105468017,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -14,7 +14,7 @@
 		"originalSource": "C:\\Users\\Miss America\\Desktop\\caverns-files-web\\layers\\background.png",
 		"exportFormat": "png",
 		"exportQuality": 0.8,
-		"imageSpriteId": 2487689,
+		"imageSpriteId": 4537553,
 		"useCollisionPoly": true
 	}
 }

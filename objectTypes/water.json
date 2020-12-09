@@ -1,7 +1,7 @@
 {
 	"name": "water",
 	"plugin-id": "Sprite",
-	"sid": 339525418035061,
+	"sid": 166938277327235,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -23,7 +23,7 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 4383091,
+						"imageSpriteId": 6834481,
 						"collisionPoly": {
 							"points": [
 								0.003968253968253968,
@@ -40,7 +40,7 @@
 						"duration": 1
 					}
 				],
-				"sid": 341911633492631,
+				"sid": 887806043230076,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,
