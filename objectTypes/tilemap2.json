@@ -1,7 +1,7 @@
 {
 	"name": "Tilemap2",
 	"plugin-id": "Tilemap",
-	"sid": 217752884452089,
+	"sid": 149094659909194,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -14,7 +14,7 @@
 		"originalSource": "C:\\Users\\Miss America\\Desktop\\tileset.png",
 		"exportFormat": "png",
 		"exportQuality": 0.8,
-		"imageSpriteId": 8278569,
+		"imageSpriteId": 2129219,
 		"useCollisionPoly": true
 	},
 	"tile-collision-polys": {}
