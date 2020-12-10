@@ -1,0 +1,57 @@
+{
+	"name": "spikes",
+	"plugin-id": "Sprite",
+	"sid": 963853630812519,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 312,
+						"height": 161,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 4688141,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5,
+								0,
+								0.9967948717948718,
+								0,
+								0.9967948717948718,
+								0.5,
+								0.9967948717948718,
+								0.9937888198757764,
+								0.5,
+								0.9937888198757764,
+								0,
+								0.9937888198757764,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 373834621329884,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

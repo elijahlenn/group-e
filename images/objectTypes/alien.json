@@ -1,0 +1,658 @@
+{
+	"name": "alien",
+	"plugin-id": "Sprite",
+	"sid": 254371513941322,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "hp",
+			"type": "number",
+			"desc": "",
+			"sid": 835652691158345
+		},
+		{
+			"name": "Dir",
+			"type": "number",
+			"desc": "",
+			"sid": 897154258199949
+		}
+	],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Sin",
+			"name": "Sine",
+			"sid": 745717181648354
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 710,
+						"height": 1011,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "/Users/elijahlennen/Desktop/final project e/enemy-Idle.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 1858840,
+						"collisionPoly": {
+							"points": [
+								0,
+								0.04114737732356189,
+								0.3971830985915493,
+								0,
+								1,
+								0,
+								1,
+								0.5382789315620822,
+								1,
+								0.789713154914471,
+								0.9673239560194418,
+								0.956478732983507,
+								0.03661971293704599,
+								1,
+								0,
+								0.6166172121917697
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 710,
+						"height": 1011,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "/Users/elijahlennen/Desktop/final project e/enemy-Idle.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 9655897,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.3971830985915493,
+								0,
+								1,
+								0.020178041165707497,
+								1,
+								0.3380811032862151,
+								1,
+								0.789713154914471,
+								1,
+								0.9036597450927976,
+								0,
+								0.8921859545004945,
+								0,
+								0.5208704247554851
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 710,
+						"height": 1011,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "/Users/elijahlennen/Desktop/final project e/enemy-Idle.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 4692630,
+						"collisionPoly": {
+							"points": [
+								0,
+								0.03244312392026334,
+								0.3971830985915493,
+								0.01582591493570722,
+								1,
+								0.03758654797230465,
+								1,
+								0.5382789315620822,
+								1,
+								0.7810089015111725,
+								0.9876056335341763,
+								0.8775469848829018,
+								0,
+								0.9095944613070918,
+								0,
+								0.5382789315620822
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 710,
+						"height": 1011,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "/Users/elijahlennen/Desktop/final project e/enemy-Idle.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 4376832,
+						"collisionPoly": {
+							"points": [
+								0.1563380281690141,
+								0.11078140454995054,
+								0.3971830985915493,
+								0.01582591493570722,
+								1,
+								0.011473787762408915,
+								0.9535211267605633,
+								0.5469831849653808,
+								1,
+								0.7984174083177696,
+								1,
+								0.8514342246730061,
+								0,
+								0.8921859545004945,
+								0,
+								0.5469831849653808
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 710,
+						"height": 1011,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "/Users/elijahlennen/Desktop/final project e/enemy-Idle.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 5542100,
+						"collisionPoly": {
+							"points": [
+								0,
+								0.11078140454995054,
+								0.3971830985915493,
+								0,
+								1,
+								0.0027695343591103375,
+								0.9535211267605633,
+								0.5469831849653808,
+								1,
+								0.8071216617210683,
+								0.8309859248953805,
+								0.9384767587059918,
+								0,
+								0.8921859545004945,
+								0,
+								0.4860534111422907
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 710,
+						"height": 1011,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "/Users/elijahlennen/Desktop/final project e/enemy-Idle.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 7158240,
+						"collisionPoly": {
+							"points": [
+								0.1563380281690141,
+								0.11078140454995054,
+								0.3971830985915493,
+								0.01582591493570722,
+								0.7408450704225352,
+								0.03758654797230465,
+								0.9535211267605633,
+								0.5469831849653808,
+								0.3873239436619718,
+								0.8071216617210683,
+								0.3971830985915493,
+								0.7992087042532147,
+								0.28450704225352114,
+								0.8921859545004945,
+								0.022535211267605635,
+								0.5469831849653808
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 710,
+						"height": 1011,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "/Users/elijahlennen/Desktop/final project e/enemy-Idle.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 6679224,
+						"collisionPoly": {
+							"points": [
+								0.1563380281690141,
+								0.11078140454995054,
+								0.3971830985915493,
+								0.01582591493570722,
+								0.7408450704225352,
+								0.03758654797230465,
+								0.9535211267605633,
+								0.5469831849653808,
+								0.3873239436619718,
+								0.8071216617210683,
+								0.3971830985915493,
+								0.7992087042532147,
+								0.28450704225352114,
+								0.8921859545004945,
+								0.022535211267605635,
+								0.5469831849653808
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 710,
+						"height": 1011,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "/Users/elijahlennen/Desktop/final project e/enemy-Idle.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 8837294,
+						"collisionPoly": {
+							"points": [
+								0.1563380281690141,
+								0.11078140454995054,
+								0.3971830985915493,
+								0.01582591493570722,
+								0.7408450704225352,
+								0.03758654797230465,
+								0.9535211267605633,
+								0.5469831849653808,
+								0.3873239436619718,
+								0.8071216617210683,
+								0.3971830985915493,
+								0.7992087042532147,
+								0.28450704225352114,
+								0.8921859545004945,
+								0.022535211267605635,
+								0.5469831849653808
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 710,
+						"height": 1011,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "/Users/elijahlennen/Desktop/final project e/enemy-Idle.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 1632685,
+						"collisionPoly": {
+							"points": [
+								0.1563380281690141,
+								0.11078140454995054,
+								0.3971830985915493,
+								0.01582591493570722,
+								0.7408450704225352,
+								0.03758654797230465,
+								0.9535211267605633,
+								0.5469831849653808,
+								0.3873239436619718,
+								0.8071216617210683,
+								0.3971830985915493,
+								0.7992087042532147,
+								0.28450704225352114,
+								0.8921859545004945,
+								0.022535211267605635,
+								0.5469831849653808
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 710,
+						"height": 1011,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "/Users/elijahlennen/Desktop/final project e/enemy-Idle.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 2092121,
+						"collisionPoly": {
+							"points": [
+								0.1563380281690141,
+								0.11078140454995054,
+								0.3971830985915493,
+								0.01582591493570722,
+								0.7408450704225352,
+								0.03758654797230465,
+								0.9535211267605633,
+								0.5469831849653808,
+								0.3873239436619718,
+								0.8071216617210683,
+								0.3971830985915493,
+								0.7992087042532147,
+								0.28450704225352114,
+								0.8921859545004945,
+								0.022535211267605635,
+								0.5469831849653808
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 937184890856562,
+				"name": "idle",
+				"isLooping": true,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 6
+			},
+			{
+				"frames": [
+					{
+						"width": 729,
+						"height": 1436,
+						"originX": 0.47599451303155005,
+						"originY": 1.3481894150417828,
+						"originalSource": "/Users/elijahlennen/Desktop/final project e/enemy-death-1.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 5738012,
+						"collisionPoly": {
+							"points": [
+								0.10425240054869685,
+								0.2193593314763231,
+								0.47599451303155005,
+								0.06197771587743733,
+								0.8449931412894376,
+								0.2200557103064067,
+								0.9945130315500685,
+								0.596100278551532,
+								0.644718792866941,
+								0.8697771587743732,
+								0.47599451303155005,
+								0.9289693593314763,
+								0.4252400548696845,
+								0.8091922005571031,
+								0.15912208504801098,
+								0.596100278551532
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 1620,
+						"height": 2160,
+						"originX": 0.5,
+						"originY": 1,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 5099491,
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 1620,
+						"height": 2160,
+						"originX": 0.5,
+						"originY": 1,
+						"originalSource": "/Users/elijahlennen/Desktop/final project e/enemy-death-2.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 5293343,
+						"collisionPoly": {
+							"points": [
+								0.42407407407407405,
+								0.31805555555555554,
+								0.5,
+								0.3175925925925926,
+								0.6055555555555555,
+								0.2953703703703704,
+								0.6314814814814815,
+								0.5,
+								0.5475308641975308,
+								0.6606481481481481,
+								0.5,
+								0.737037037037037,
+								0.48703703703703705,
+								0.6342592592592593,
+								0.345679012345679,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 1620,
+						"height": 2160,
+						"originX": 0.5,
+						"originY": 1,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 3444043,
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 1620,
+						"height": 2160,
+						"originX": 0.5,
+						"originY": 1,
+						"originalSource": "/Users/elijahlennen/Desktop/final project e/enemy-death-3.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 100127,
+						"collisionPoly": {
+							"points": [
+								0.45987654320987653,
+								0.3449074074074074,
+								0.5,
+								0.10324074074074074,
+								0.5006172839506173,
+								0.37407407407407406,
+								0.5259259259259259,
+								0.5,
+								0.5530864197530864,
+								0.6648148148148149,
+								0.5,
+								0.6680555555555555,
+								0.45308641975308644,
+								0.6597222222222222,
+								0.49382716049382713,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 1620,
+						"height": 2160,
+						"originX": 0.5,
+						"originY": 1,
+						"originalSource": "/Users/elijahlennen/Desktop/final project e/enemy-death-4.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 1434323,
+						"collisionPoly": {
+							"points": [
+								0.5,
+								0.5680555555555555,
+								0.5290123456790123,
+								0.6467592592592593,
+								0.5,
+								0.6532407407407408,
+								0.5166666666666667,
+								0.612037037037037
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 180294094753762,
+				"name": "death",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 3
+			},
+			{
+				"frames": [
+					{
+						"width": 710,
+						"height": 1011,
+						"originX": 0.3971830985915493,
+						"originY": 0.5469831849653808,
+						"originalSource": "/Users/elijahlennen/Desktop/final project e/enemy-Idle.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 2559760,
+						"collisionPoly": {
+							"points": [
+								0.1563380281690141,
+								0.11078140454995054,
+								0.3971830985915493,
+								0.01582591493570722,
+								0.7408450704225352,
+								0.03758654797230465,
+								0.9535211267605633,
+								0.5469831849653808,
+								0.3873239436619718,
+								0.8071216617210683,
+								0.3971830985915493,
+								0.7992087042532147,
+								0.28450704225352114,
+								0.8921859545004945,
+								0.022535211267605635,
+								0.5469831849653808
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 1620,
+						"height": 2160,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "/Users/elijahlennen/Desktop/final project e/enemy-Idle.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 6633701,
+						"collisionPoly": {
+							"points": [
+								0.39444444444444443,
+								0.29583333333333334,
+								0.5,
+								0.2513888888888889,
+								0.6506172839506172,
+								0.26157407407407407,
+								0.7438271604938271,
+								0.5,
+								0.495679012345679,
+								0.6217592592592592,
+								0.5,
+								0.6180555555555556,
+								0.4506172839506173,
+								0.6615740740740741,
+								0.3358024691358025,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 1620,
+						"height": 2160,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "/Users/elijahlennen/Desktop/final project e/enemy-Idle.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 2848482,
+						"collisionPoly": {
+							"points": [
+								0.39444444444444443,
+								0.29583333333333334,
+								0.5,
+								0.2513888888888889,
+								0.6506172839506172,
+								0.26157407407407407,
+								0.7438271604938271,
+								0.5,
+								0.495679012345679,
+								0.6217592592592592,
+								0.5,
+								0.6180555555555556,
+								0.4506172839506173,
+								0.6615740740740741,
+								0.3358024691358025,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 1620,
+						"height": 2160,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "/Users/elijahlennen/Desktop/final project e/enemy-Idle.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 5917107,
+						"collisionPoly": {
+							"points": [
+								0.39444444444444443,
+								0.29583333333333334,
+								0.5,
+								0.2513888888888889,
+								0.6506172839506172,
+								0.26157407407407407,
+								0.7438271604938271,
+								0.5,
+								0.495679012345679,
+								0.6217592592592592,
+								0.5,
+								0.6180555555555556,
+								0.4506172839506173,
+								0.6615740740740741,
+								0.3358024691358025,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 937399625740208,
+				"name": "attack",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

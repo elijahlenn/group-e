@@ -1,0 +1,21 @@
+{
+	"name": "Tilemap",
+	"plugin-id": "Tilemap",
+	"sid": 197848160247048,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"image": {
+		"width": 33,
+		"height": 34,
+		"originX": 9,
+		"originY": -4.205882352941177,
+		"originalSource": "C:\\Users\\Miss America\\Desktop\\Enviroment.png",
+		"exportFormat": "png",
+		"exportQuality": 0.8,
+		"imageSpriteId": 7997846,
+		"useCollisionPoly": true
+	},
+	"tile-collision-polys": {}
+}

@@ -1,0 +1,181 @@
+{
+	"name": "deathspawn",
+	"plugin-id": "Sprite",
+	"sid": 452742604396515,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 729,
+						"height": 1436,
+						"originX": 0.5,
+						"originY": 1,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 8280946,
+						"collisionPoly": {
+							"points": [
+								0.2345679012345679,
+								0.1190807799442897,
+								0.5,
+								0.15250696378830084,
+								0.6927297668038409,
+								0.15529247910863508,
+								0.8957475994513031,
+								0.5,
+								0.6364883401920439,
+								0.8154596100278552,
+								0.5,
+								0.9547353760445683,
+								0.3196159122085048,
+								0.8370473537604457,
+								0.0205761316872428,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 672,
+						"height": 252,
+						"originX": 0.5,
+						"originY": 1,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 3992950,
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 1620,
+						"height": 2160,
+						"originX": 0.5,
+						"originY": 1,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 4855514,
+						"collisionPoly": {
+							"points": [
+								0.42407407407407405,
+								0.31805555555555554,
+								0.5,
+								0.3175925925925926,
+								0.6055555555555555,
+								0.2953703703703704,
+								0.6314814814814815,
+								0.5,
+								0.5475308641975308,
+								0.6606481481481481,
+								0.5,
+								0.737037037037037,
+								0.48703703703703705,
+								0.6342592592592593,
+								0.345679012345679,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 672,
+						"height": 252,
+						"originX": 0.5,
+						"originY": 1,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 9122704,
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 328,
+						"height": 1228,
+						"originX": 0.5,
+						"originY": 1,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 7246440,
+						"collisionPoly": {
+							"points": [
+								0.21341463414634146,
+								0.42833876221498374,
+								0.4115853658536585,
+								0.003257328990228013,
+								0.4146341463414638,
+								0.4796416938110749,
+								0.5396341463414634,
+								0.7011400651465798,
+								0.6737804878048776,
+								0.991042345276873,
+								0.4115853658536585,
+								0.996742671009772,
+								0.1798780487804878,
+								0.9820846905537459,
+								0.38109756097560976,
+								0.7011400651465798
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 672,
+						"height": 252,
+						"originX": 0.5,
+						"originY": 1,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 31162,
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 672,
+						"height": 252,
+						"originX": 0.5,
+						"originY": 1,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 7153075,
+						"collisionPoly": {
+							"points": [
+								0.5744047619047619,
+								0.25,
+								0.6443452380952381,
+								0.9246031746031746,
+								0.5744047619047619,
+								0.9801587301587301,
+								0.6145833333333335,
+								0.626984126984127
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 899872464241031,
+				"name": "death",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

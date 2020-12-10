@@ -1,0 +1,72 @@
+{
+	"name": "enemy2",
+	"plugin-id": "Sprite",
+	"sid": 745905001296738,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "patrol",
+			"type": "number",
+			"desc": "",
+			"sid": 161736381703564
+		},
+		{
+			"name": "hitPoints",
+			"type": "number",
+			"desc": "",
+			"sid": 409752115416186
+		}
+	],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Bullet",
+			"name": "Bullet",
+			"sid": 625348125614817
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 20,
+						"height": 18,
+						"originX": -0.325,
+						"originY": -2.388888888888889,
+						"originalSource": "C:\\Users\\Miss America\\Desktop\\The Game Creator's Pack\\Graphic Pack\\Platformer_SpriteSheet.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 8750360,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								1,
+								0,
+								1,
+								0,
+								1,
+								1,
+								0,
+								1,
+								0,
+								0
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 710897400111808,
+				"name": "Animation 1",
+				"isLooping": true,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}
