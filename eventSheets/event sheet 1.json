@@ -285,33 +285,6 @@
 					"eventType": "block",
 					"conditions": [
 						{
-							"id": "on-start-of-layout",
-							"objectClass": "System",
-							"sid": 866448003715163
-						}
-					],
-					"actions": [
-						{
-							"id": "pin-to-object-imagepoint",
-							"objectClass": "player",
-							"sid": 614352560420805,
-							"behaviorType": "Pin",
-							"parameters": {
-								"pin-to": "player1",
-								"image-point": "1",
-								"angle": true,
-								"width-type": "no",
-								"height-type": "no",
-								"z": false
-							}
-						}
-					],
-					"sid": 917181441249682
-				},
-				{
-					"eventType": "block",
-					"conditions": [
-						{
 							"id": "key-is-down",
 							"objectClass": "Keyboard",
 							"sid": 809980120877332,
@@ -485,6 +458,28 @@
 						}
 					],
 					"sid": 944839993056658
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "every-tick",
+							"objectClass": "System",
+							"sid": 581164797402405
+						}
+					],
+					"actions": [
+						{
+							"id": "set-position",
+							"objectClass": "player1",
+							"sid": 391905022545603,
+							"parameters": {
+								"x": "player.X",
+								"y": "player.Y-8"
+							}
+						}
+					],
+					"sid": 810717849581849
 				}
 			],
 			"sid": 963987071056060
