@@ -1,0 +1,27 @@
+{
+	"name": "stages",
+	"plugin-id": "Tilemap",
+	"sid": 415393817068414,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 296721664171065
+		}
+	],
+	"effectTypes": [],
+	"image": {
+		"width": 29,
+		"height": 32,
+		"originX": 0.5,
+		"originY": 0.5,
+		"originalSource": "",
+		"exportFormat": "png",
+		"exportQuality": 0.8,
+		"imageSpriteId": 2399441,
+		"useCollisionPoly": true
+	},
+	"tile-collision-polys": {}
+}

@@ -1,0 +1,63 @@
+{
+	"name": "hole",
+	"plugin-id": "Sprite",
+	"sid": 134813825162892,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Rotate",
+			"name": "Rotate",
+			"sid": 654663605662237
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 81,
+						"height": 74,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 2908780,
+						"collisionPoly": {
+							"points": [
+								0.20987654320987653,
+								0.22972972972972974,
+								0.5,
+								0.14864864864864866,
+								0.8024691358024691,
+								0.20270270270270271,
+								0.9012345679012346,
+								0.5,
+								0.7777777777777778,
+								0.7567567567567568,
+								0.5,
+								0.9324324324324325,
+								0.1728395061728395,
+								0.7972972972972973,
+								0.024691358024691357,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 437008600259329,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

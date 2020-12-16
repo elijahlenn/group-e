@@ -1,0 +1,63 @@
+{
+	"name": "raindrop",
+	"plugin-id": "Sprite",
+	"sid": 734717048865947,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Sin",
+			"name": "Sine",
+			"sid": 929884240746086
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 93,
+						"height": 132,
+						"originX": 0.5483870967741935,
+						"originY": 0.42424242424242425,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 3013861,
+						"collisionPoly": {
+							"points": [
+								0.07526881720430109,
+								0.2575757575757575,
+								0.5483870967741935,
+								0,
+								0.774193548387097,
+								0.30303030303030287,
+								1,
+								0.42424242424242425,
+								0.870967741935484,
+								0.8712121212121213,
+								0.5483870967741935,
+								1,
+								0.05376344086021506,
+								0.8333333333333335,
+								0,
+								0.42424242424242425
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 516151439077729,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

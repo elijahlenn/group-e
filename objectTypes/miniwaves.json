@@ -1,0 +1,20 @@
+{
+	"name": "miniwaves",
+	"plugin-id": "TiledBg",
+	"sid": 158531111644424,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"image": {
+		"width": 16,
+		"height": 17,
+		"originX": 181.33333333333334,
+		"originY": -12.848739495798318,
+		"originalSource": "",
+		"exportFormat": "png",
+		"exportQuality": 0.8,
+		"imageSpriteId": 1110673,
+		"useCollisionPoly": true
+	}
+}

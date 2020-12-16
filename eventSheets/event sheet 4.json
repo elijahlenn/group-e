@@ -1,0 +1,22 @@
+{
+	"name": "Event sheet 4",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-click",
+					"objectClass": "Mouse",
+					"sid": 448052082300311,
+					"parameters": {
+						"mouse-button": "right",
+						"click-type": "clicked"
+					}
+				}
+			],
+			"actions": [],
+			"sid": 960536994101443
+		}
+	],
+	"sid": 207306210738899
+}

@@ -1,0 +1,48 @@
+{
+	"name": "lavablock",
+	"plugin-id": "Sprite",
+	"sid": 595232834780411,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 696651690021341
+		},
+		{
+			"behaviorId": "Bullet",
+			"name": "Bullet",
+			"sid": 871681398470876
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 250,
+						"height": 250,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 5038346,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 920574208287894,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

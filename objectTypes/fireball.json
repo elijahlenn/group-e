@@ -1,0 +1,63 @@
+{
+	"name": "fireball",
+	"plugin-id": "Sprite",
+	"sid": 866948910730035,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Sin",
+			"name": "Sine",
+			"sid": 119162220914397
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 300,
+						"height": 250,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 8073281,
+						"collisionPoly": {
+							"points": [
+								0.40333333333333315,
+								0.3080000000000001,
+								0.4933333333333333,
+								0.28800000000000003,
+								0.5533333333333333,
+								0.3600000000000001,
+								0.5966666666666666,
+								0.5,
+								0.5933333333333342,
+								0.7159999999999997,
+								0.47999999999999987,
+								0.7839999999999998,
+								0.35,
+								0.5879999999999996,
+								0.38333333333333347,
+								0.45999999999999996
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 106927175209370,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

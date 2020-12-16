@@ -1,0 +1,107 @@
+{
+	"name": "walker",
+	"plugin-id": "Sprite",
+	"sid": 836884598196426,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "patrol",
+			"type": "number",
+			"desc": "",
+			"sid": 910990094593968
+		}
+	],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Platform",
+			"name": "Platform",
+			"sid": 182244980425726
+		},
+		{
+			"behaviorId": "LOS",
+			"name": "LineOfSight",
+			"sid": 149740905946817
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 1620,
+						"height": 2160,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 7440840,
+						"collisionPoly": {
+							"points": [
+								0.15774647887323945,
+								0.11078140454995054,
+								0.5,
+								0.002967359050445104,
+								0.8408450704225352,
+								0.11078140454995054,
+								0.9535211267605633,
+								0.5,
+								0.6507042253521127,
+								0.7546983184965381,
+								0.5,
+								0.7794263105835806,
+								0.13943661971830987,
+								0.9010880316518298,
+								0.01971830985915493,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 1620,
+						"height": 2160,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 8095325,
+						"collisionPoly": {
+							"points": [
+								0.3728395061728395,
+								0.2796296296296296,
+								0.5,
+								0.2518518518518518,
+								0.6302469135802469,
+								0.27685185185185185,
+								0.7148148148148148,
+								0.5,
+								0.5148148148148148,
+								0.6361111111111111,
+								0.5,
+								0.6703703703703704,
+								0.4802469135802469,
+								0.6393518518518518,
+								0.28888888888888886,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 362946343118084,
+				"name": "chomp",
+				"isLooping": true,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

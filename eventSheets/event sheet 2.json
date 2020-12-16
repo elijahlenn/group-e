@@ -2,623 +2,206 @@
 	"name": "Event sheet 2",
 	"events": [
 		{
-			"eventType": "group",
-			"disabled": false,
-			"title": "attack",
-			"description": "",
-			"isActiveOnStart": true,
-			"children": [
+			"eventType": "block",
+			"conditions": [
 				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "on-key-pressed",
-							"objectClass": "Keyboard",
-							"sid": 261586632527984,
-							"parameters": {
-								"key": 32
-							}
-						}
-					],
-					"actions": [
-						{
-							"id": "set-animation",
-							"objectClass": "player1",
-							"sid": 998594033155246,
-							"parameters": {
-								"animation": "\"attack\"",
-								"from": "beginning"
-							}
-						}
-					],
-					"sid": 503955306413903
-				},
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "on-animation-finished",
-							"objectClass": "player1",
-							"sid": 680964187614081,
-							"parameters": {
-								"animation": "\"attack\""
-							}
-						}
-					],
-					"actions": [
-						{
-							"id": "set-animation",
-							"objectClass": "player1",
-							"sid": 890014181662716,
-							"parameters": {
-								"animation": "\"idol1\"",
-								"from": "beginning"
-							}
-						}
-					],
-					"sid": 502171622833625
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 495519236327817
 				}
 			],
-			"sid": 609088602424391
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "water",
+					"sid": 191624008652738,
+					"parameters": {
+						"animation": "\"waves\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 319884038662036
 		},
 		{
-			"eventType": "group",
-			"disabled": false,
-			"title": "player",
-			"description": "",
-			"isActiveOnStart": true,
-			"children": [
+			"eventType": "block",
+			"conditions": [
 				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "is-animation-playing",
-							"objectClass": "player1",
-							"sid": 759720104003680,
-							"parameters": {
-								"animation": "\"attack\""
-							},
-							"isInverted": true
-						}
-					],
-					"actions": [],
-					"sid": 702399538947354,
-					"children": [
-						{
-							"eventType": "block",
-							"conditions": [
-								{
-									"id": "key-is-down",
-									"objectClass": "Keyboard",
-									"sid": 558242216578627,
-									"parameters": {
-										"key": 39
-									}
-								}
-							],
-							"actions": [
-								{
-									"id": "simulate-control",
-									"objectClass": "player1",
-									"sid": 558227933955360,
-									"behaviorType": "Platform",
-									"parameters": {
-										"control": "right"
-									}
-								},
-								{
-									"id": "set-mirrored",
-									"objectClass": "player1",
-									"sid": 433063352627163,
-									"parameters": {
-										"state": "not-mirrored"
-									}
-								}
-							],
-							"sid": 275606625463366
-						},
-						{
-							"eventType": "block",
-							"conditions": [
-								{
-									"id": "key-is-down",
-									"objectClass": "Keyboard",
-									"sid": 147299657863612,
-									"parameters": {
-										"key": 37
-									}
-								}
-							],
-							"actions": [
-								{
-									"id": "simulate-control",
-									"objectClass": "player1",
-									"sid": 580831683385364,
-									"behaviorType": "Platform",
-									"parameters": {
-										"control": "left"
-									}
-								},
-								{
-									"id": "set-mirrored",
-									"objectClass": "player1",
-									"sid": 468696364535794,
-									"parameters": {
-										"state": "mirrored"
-									}
-								}
-							],
-							"sid": 371557189932232
-						},
-						{
-							"eventType": "block",
-							"conditions": [
-								{
-									"id": "on-key-pressed",
-									"objectClass": "Keyboard",
-									"sid": 645509056309247,
-									"parameters": {
-										"key": 38
-									}
-								}
-							],
-							"actions": [
-								{
-									"id": "simulate-control",
-									"objectClass": "player1",
-									"sid": 110362852265186,
-									"behaviorType": "Platform",
-									"parameters": {
-										"control": "jump"
-									}
-								},
-								{
-									"id": "set-animation",
-									"objectClass": "player1",
-									"sid": 447797715227989,
-									"parameters": {
-										"animation": "\"jump\"",
-										"from": "beginning"
-									}
-								}
-							],
-							"sid": 115956522273404
-						},
-						{
-							"eventType": "block",
-							"conditions": [
-								{
-									"id": "is-on-floor",
-									"objectClass": "player1",
-									"sid": 115781154647731,
-									"behaviorType": "Platform"
-								}
-							],
-							"actions": [],
-							"sid": 643703567334622,
-							"children": [
-								{
-									"eventType": "block",
-									"conditions": [
-										{
-											"id": "is-moving",
-											"objectClass": "player1",
-											"sid": 432881082129284,
-											"behaviorType": "Platform",
-											"isInverted": true
-										}
-									],
-									"actions": [
-										{
-											"id": "set-animation",
-											"objectClass": "player1",
-											"sid": 601462586987601,
-											"parameters": {
-												"animation": "\"idol1\"",
-												"from": "beginning"
-											}
-										}
-									],
-									"sid": 230912103196317
-								},
-								{
-									"eventType": "block",
-									"conditions": [
-										{
-											"id": "is-moving",
-											"objectClass": "player1",
-											"sid": 806772184730777,
-											"behaviorType": "Platform"
-										}
-									],
-									"actions": [
-										{
-											"id": "set-animation",
-											"objectClass": "player1",
-											"sid": 154104055084626,
-											"parameters": {
-												"animation": "\"run1\"",
-												"from": "beginning"
-											}
-										}
-									],
-									"sid": 972004592623430
-								},
-								{
-									"eventType": "block",
-									"conditions": [
-										{
-											"id": "on-jump",
-											"objectClass": "player1",
-											"sid": 838177356754771,
-											"behaviorType": "Platform"
-										}
-									],
-									"actions": [
-										{
-											"id": "set-animation",
-											"objectClass": "player1",
-											"sid": 103644414398187,
-											"parameters": {
-												"animation": "\"jump\"",
-												"from": "beginning"
-											}
-										}
-									],
-									"sid": 341816062985519
-								}
-							]
-						},
-						{
-							"eventType": "block",
-							"conditions": [
-								{
-									"id": "is-falling",
-									"objectClass": "player1",
-									"sid": 541302833896392,
-									"behaviorType": "Platform"
-								}
-							],
-							"actions": [
-								{
-									"id": "set-animation",
-									"objectClass": "player1",
-									"sid": 179388517641374,
-									"parameters": {
-										"animation": "\"fall\"",
-										"from": "beginning"
-									}
-								}
-							],
-							"sid": 871563643563857,
-							"disabled": true
-						}
-					]
-				},
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "on-start-of-layout",
-							"objectClass": "System",
-							"sid": 690790325891172
-						}
-					],
-					"actions": [
-						{
-							"id": "set-effect-enabled",
-							"objectClass": "player1",
-							"sid": 552856620184329,
-							"parameters": {
-								"mode": "disable",
-								"effect": "\"BlackandWhite\""
-							}
-						}
-					],
-					"sid": 383121623065329
-				},
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "on-collision-with-another-object",
-							"objectClass": "player1",
-							"sid": 784697252682073,
-							"parameters": {
-								"object": "alien"
-							}
-						}
-					],
-					"actions": [
-						{
-							"id": "set-effect-enabled",
-							"objectClass": "player1",
-							"sid": 353945179458098,
-							"parameters": {
-								"mode": "disable",
-								"effect": "\"BlackandWhite\""
-							}
-						},
-						{
-							"id": "restart-layout",
-							"objectClass": "System",
-							"sid": 315951131119819
-						}
-					],
-					"sid": 396067347110625
-				},
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "on-collision-with-another-object",
-							"objectClass": "player1",
-							"sid": 926484752185656,
-							"parameters": {
-								"object": "alienP"
-							}
-						}
-					],
-					"actions": [
-						{
-							"id": "restart-layout",
-							"objectClass": "System",
-							"sid": 987716527750503
-						}
-					],
-					"sid": 672581178147169
-				},
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "on-collision-with-another-object",
-							"objectClass": "player1",
-							"sid": 909389285527414,
-							"parameters": {
-								"object": "alin"
-							}
-						}
-					],
-					"actions": [
-						{
-							"id": "restart-layout",
-							"objectClass": "System",
-							"sid": 600500032888682
-						}
-					],
-					"sid": 334572461608275
-				},
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "on-collision-with-another-object",
-							"objectClass": "player1",
-							"sid": 562641274899364,
-							"parameters": {
-								"object": "a"
-							}
-						}
-					],
-					"actions": [],
-					"sid": 344226255713704
-				},
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "on-collision-with-another-object",
-							"objectClass": "player1",
-							"sid": 300169891505509,
-							"parameters": {
-								"object": "coin"
-							}
-						}
-					],
-					"actions": [
-						{
-							"id": "destroy",
-							"objectClass": "coin",
-							"sid": 888756062776009
-						}
-					],
-					"sid": 786431504914005
-				},
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "on-collision-with-another-object",
-							"objectClass": "player1",
-							"sid": 565666143422912,
-							"parameters": {
-								"object": "spikes"
-							}
-						}
-					],
-					"actions": [
-						{
-							"id": "restart-layout",
-							"objectClass": "System",
-							"sid": 744082596330568
-						}
-					],
-					"sid": 551164214201305,
-					"disabled": true
-				},
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "on-collision-with-another-object",
-							"objectClass": "player1",
-							"sid": 138920396596352,
-							"parameters": {
-								"object": "water1"
-							}
-						}
-					],
-					"actions": [
-						{
-							"id": "go-to-layout",
-							"objectClass": "System",
-							"sid": 524839279615724,
-							"parameters": {
-								"layout": "Layout 1"
-							}
-						}
-					],
-					"sid": 328637453649865
+					"id": "on-created",
+					"objectClass": "raindrop",
+					"sid": 333215838959648
 				}
 			],
-			"sid": 558713467482922
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "water",
+					"sid": 397629867807832,
+					"parameters": {
+						"animation": "\"waves\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 472541310929583
 		},
 		{
-			"eventType": "group",
-			"disabled": false,
-			"title": "eneimes ",
-			"description": "",
-			"isActiveOnStart": true,
-			"children": [
+			"eventType": "block",
+			"conditions": [
 				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "compare-instance-variable",
-							"objectClass": "alien",
-							"sid": 362801385644970,
-							"parameters": {
-								"instance-variable": "Dir",
-								"comparison": 0,
-								"value": "0"
-							}
-						}
-					],
-					"actions": [
-						{
-							"id": "set-mirrored",
-							"objectClass": "alien",
-							"sid": 704883677755690,
-							"parameters": {
-								"state": "mirrored"
-							}
-						}
-					],
-					"sid": 655199007450037
-				},
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "compare-instance-variable",
-							"objectClass": "alien",
-							"sid": 927812945829018,
-							"parameters": {
-								"instance-variable": "Dir",
-								"comparison": 0,
-								"value": "1"
-							}
-						}
-					],
-					"actions": [
-						{
-							"id": "set-mirrored",
-							"objectClass": "alien",
-							"sid": 147776650871410,
-							"parameters": {
-								"state": "not-mirrored"
-							}
-						}
-					],
-					"sid": 148783474653410
-				},
-				{
-					"eventType": "block",
-					"conditions": [],
-					"actions": [
-						{
-							"id": "set-instvar-value",
-							"objectClass": "alien",
-							"sid": 256580670534291,
-							"parameters": {
-								"instance-variable": "Dir",
-								"value": "1"
-							}
-						}
-					],
-					"sid": 182152467059706
-				},
-				{
-					"eventType": "block",
-					"conditions": [],
-					"actions": [
-						{
-							"id": "set-instvar-value",
-							"objectClass": "alien",
-							"sid": 564549405938159,
-							"parameters": {
-								"instance-variable": "Dir",
-								"value": "0"
-							}
-						}
-					],
-					"sid": 253416077559477
-				},
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "compare-instance-variable",
-							"objectClass": "alien",
-							"sid": 529470335035984,
-							"parameters": {
-								"instance-variable": "hp",
-								"comparison": 3,
-								"value": "0"
-							}
-						}
-					],
-					"actions": [
-						{
-							"id": "spawn-another-object",
-							"objectClass": "alien",
-							"sid": 151267668048585,
-							"parameters": {
-								"object": "deathspawn",
-								"layer": "\"game\"",
-								"image-point": "0"
-							}
-						},
-						{
-							"id": "destroy",
-							"objectClass": "alien",
-							"sid": 310154177785824
-						}
-					],
-					"sid": 625017801051167
-				},
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "on-any-animation-finished",
-							"objectClass": "deathspawn",
-							"sid": 498988689903564
-						}
-					],
-					"actions": [
-						{
-							"id": "destroy",
-							"objectClass": "deathspawn",
-							"sid": 906977171954856
-						}
-					],
-					"sid": 827177674808357
+					"id": "on-collision-with-another-object",
+					"objectClass": "player",
+					"sid": 315339331760636,
+					"parameters": {
+						"object": "death"
+					}
 				}
 			],
-			"sid": 968499639867966
+			"actions": [
+				{
+					"id": "restart-layout",
+					"objectClass": "System",
+					"sid": 143136449704399
+				}
+			],
+			"sid": 871612373783991
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "player",
+					"sid": 749417373488196,
+					"parameters": {
+						"object": "water"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "restart-layout",
+					"objectClass": "System",
+					"sid": 948505718769979
+				}
+			],
+			"sid": 338832827500331
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "player",
+					"sid": 295826056303326,
+					"parameters": {
+						"object": "spike"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "restart-layout",
+					"objectClass": "System",
+					"sid": 256924292996754
+				}
+			],
+			"sid": 758971373496440
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "player",
+					"sid": 683953114763884,
+					"parameters": {
+						"object": "rock"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "restart-layout",
+					"objectClass": "System",
+					"sid": 871822759630136
+				}
+			],
+			"sid": 910319518116645
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "player",
+					"sid": 411847333862156,
+					"parameters": {
+						"object": "coin"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "spawn-another-object",
+					"objectClass": "coin",
+					"sid": 331403312950657,
+					"parameters": {
+						"object": "coin_spAwn",
+						"layer": "1",
+						"image-point": "0"
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "coin",
+					"sid": 403483206006377
+				}
+			],
+			"sid": 992514571859422
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-any-animation-finished",
+					"objectClass": "coin_spAwn",
+					"sid": 535878231708189
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "coin_spAwn",
+					"sid": 386248207284432
+				}
+			],
+			"sid": 832768852553257
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "player",
+					"sid": 138669191649268,
+					"parameters": {
+						"object": "hole"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 553405565942166,
+					"parameters": {
+						"layout": "Layout 3"
+					}
+				}
+			],
+			"sid": 706030626412323
 		}
 	],
-	"sid": 774599449131566
+	"sid": 196908537544811
 }

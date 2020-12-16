@@ -1,0 +1,136 @@
+{
+	"name": "Event sheet 3",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "player",
+					"sid": 141774074107695,
+					"parameters": {
+						"object": "lava"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "restart-layout",
+					"objectClass": "System",
+					"sid": 743847820397373
+				}
+			],
+			"sid": 537308094938778
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-animation-playing",
+					"objectClass": "chomp",
+					"sid": 968905262925898,
+					"parameters": {
+						"animation": "\"Animation 1\""
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "chomp",
+					"sid": 164963461776536,
+					"parameters": {
+						"animation": "\"Animation 1\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 582617007563979
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "player",
+					"sid": 952763812359731,
+					"parameters": {
+						"object": "chomp"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "restart-layout",
+					"objectClass": "System",
+					"sid": 941970889053129
+				}
+			],
+			"sid": 782816471664122
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "player",
+					"sid": 123727293134259,
+					"parameters": {
+						"object": "fireball"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "restart-layout",
+					"objectClass": "System",
+					"sid": 862783833100582
+				}
+			],
+			"sid": 388026963348018
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "player",
+					"sid": 500292110169439,
+					"parameters": {
+						"object": "Rocks"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "restart-layout",
+					"objectClass": "System",
+					"sid": 282219659000585
+				}
+			],
+			"sid": 525495280853746
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "player",
+					"sid": 721149263998638,
+					"parameters": {
+						"object": "flames"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "restart-layout",
+					"objectClass": "System",
+					"sid": 876614105746147
+				}
+			],
+			"sid": 158077434965219
+		}
+	],
+	"sid": 402026725804604
+}

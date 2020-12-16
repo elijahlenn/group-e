@@ -1,7 +1,7 @@
 {
 	"projectFormatVersion": 1,
 	"savedWithRelease": 22500,
-	"name": "Earth Invaders Level One",
+	"name": "final PROJECT GAMEM ME",
 	"runtime": "c3",
 	"useWorker": "auto",
 	"bundleAddons": false,
@@ -32,14 +32,6 @@
 		},
 		{
 			"type": "plugin",
-			"id": "Keyboard",
-			"name": "Keyboard",
-			"author": "Scirra",
-			"version": "r225",
-			"bundled": false
-		},
-		{
-			"type": "plugin",
 			"id": "Particles",
 			"name": "Particles",
 			"author": "Scirra",
@@ -48,24 +40,16 @@
 		},
 		{
 			"type": "plugin",
-			"id": "Audio",
-			"name": "Audio",
+			"id": "Keyboard",
+			"name": "Keyboard",
 			"author": "Scirra",
 			"version": "r225",
 			"bundled": false
 		},
 		{
-			"type": "behavior",
-			"id": "Rotate",
-			"name": "Rotate",
-			"author": "Scirra",
-			"version": "r225",
-			"bundled": false
-		},
-		{
-			"type": "behavior",
-			"id": "Flash",
-			"name": "Flash",
+			"type": "plugin",
+			"id": "Mouse",
+			"name": "Mouse",
 			"author": "Scirra",
 			"version": "r225",
 			"bundled": false
@@ -80,6 +64,22 @@
 		},
 		{
 			"type": "behavior",
+			"id": "Platform",
+			"name": "Platform",
+			"author": "Scirra",
+			"version": "r225",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "LOS",
+			"name": "Line of sight",
+			"author": "Scirra",
+			"version": "r225",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
 			"id": "Sin",
 			"name": "Sine",
 			"author": "Scirra",
@@ -88,16 +88,8 @@
 		},
 		{
 			"type": "behavior",
-			"id": "Bullet",
-			"name": "Bullet",
-			"author": "Scirra",
-			"version": "r225",
-			"bundled": false
-		},
-		{
-			"type": "behavior",
-			"id": "Platform",
-			"name": "Platform",
+			"id": "Rotate",
+			"name": "Rotate",
 			"author": "Scirra",
 			"version": "r225",
 			"bundled": false
@@ -119,60 +111,68 @@
 			"bundled": false
 		},
 		{
-			"type": "effect",
-			"id": "water",
-			"name": "Water",
-			"author": "Viktor Korsun",
+			"type": "behavior",
+			"id": "Pin",
+			"name": "Pin",
+			"author": "Scirra",
 			"version": "r225",
 			"bundled": false
 		},
 		{
-			"type": "effect",
-			"id": "warpripple",
-			"name": "Warp ripple",
+			"type": "behavior",
+			"id": "Orbit",
+			"name": "Orbit",
+			"author": "Scirra",
+			"version": "r225",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Bullet",
+			"name": "Bullet",
 			"author": "Scirra",
 			"version": "r225",
 			"bundled": false
 		}
 	],
-	"uniqueId": "vxnbtat9tat",
+	"uniqueId": "szk7ztw09uw",
 	"objectTypes": {
 		"items": [
-			"TiledBackground",
-			"Tilemap",
-			"spheres",
-			"water",
-			"water1",
-			"Sprite",
-			"TiledBackground2",
-			"Tilemap2",
-			"Sprite2",
-			"coin",
-			"Keyboard",
-			"enemy",
-			"enemy2",
-			"Sprite3",
-			"player1",
-			"alien",
-			"floor1",
-			"alienP",
-			"Particles",
-			"Audio",
-			"alin",
-			"flame",
-			"hitbox",
-			"Sprite4",
-			"Sprite5",
-			"Sprite6",
-			"Sprite7",
-			"TiledBackground3",
-			"Sprite8",
-			"Tilemap3",
 			"background",
-			"TiledBackground4",
-			"deathspawn",
+			"stages",
 			"spikes",
-			"a"
+			"shooter",
+			"walker",
+			"up_down_head",
+			"coin",
+			"hole",
+			"player",
+			"rock",
+			"death",
+			"water",
+			"bg2",
+			"potal",
+			"raindrop",
+			"miniwaves",
+			"wave_block",
+			"lvl2_stage",
+			"spike",
+			"coin_spAwn",
+			"TiledBackground",
+			"lvl3_stage",
+			"spikes2",
+			"hole1",
+			"title",
+			"Keyboard",
+			"Mouse",
+			"start",
+			"lava",
+			"lavablock",
+			"chomp",
+			"fireball",
+			"Rocks",
+			"flames",
+			"player1"
 		],
 		"subfolders": []
 	},
@@ -185,14 +185,20 @@
 	"layouts": {
 		"items": [
 			"Layout 1",
-			"Layout 2"
+			"Layout 2",
+			"Layout 3",
+			"Layout 4",
+			"Layout 5"
 		],
 		"subfolders": []
 	},
 	"eventSheets": {
 		"items": [
 			"Event sheet 1",
-			"Event sheet 2"
+			"Event sheet 2",
+			"Event sheet 3",
+			"Event sheet 4",
+			"Event sheet 5"
 		],
 		"subfolders": []
 	},
@@ -202,18 +208,7 @@
 			"subfolders": []
 		},
 		"sound": {
-			"items": [
-				{
-					"name": "Super Mario Bros.-Coin Sound Effect.mp3",
-					"type": "audio/mpeg",
-					"sid": 488202816283536
-				},
-				{
-					"name": "Density & Time - MAZE NO COPYRIGHT 8-bit Music.mp3",
-					"type": "audio/mpeg",
-					"sid": 959480564701924
-				}
-			],
+			"items": [],
 			"subfolders": []
 		},
 		"music": {
@@ -231,25 +226,9 @@
 		"icon": {
 			"items": [
 				{
-					"name": "icon-16.png",
-					"type": "image/png",
-					"sid": 200323246116247,
-					"icon-info": {
-						"purpose": "app-icon"
-					}
-				},
-				{
 					"name": "icon-32.png",
 					"type": "image/png",
-					"sid": 801493489010285,
-					"icon-info": {
-						"purpose": "app-icon"
-					}
-				},
-				{
-					"name": "icon-64.png",
-					"type": "image/png",
-					"sid": 365993771164395,
+					"sid": 979254576150742,
 					"icon-info": {
 						"purpose": "app-icon"
 					}
@@ -257,7 +236,15 @@
 				{
 					"name": "icon-128.png",
 					"type": "image/png",
-					"sid": 520847954728724,
+					"sid": 345375473859338,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icon-16.png",
+					"type": "image/png",
+					"sid": 717121044803981,
 					"icon-info": {
 						"purpose": "app-icon"
 					}
@@ -265,7 +252,7 @@
 				{
 					"name": "icon-512.png",
 					"type": "image/png",
-					"sid": 741250900416392,
+					"sid": 853922239697109,
 					"icon-info": {
 						"purpose": "app-icon"
 					}
@@ -273,15 +260,23 @@
 				{
 					"name": "loading-logo.png",
 					"type": "image/png",
-					"sid": 743466060082594,
+					"sid": 288993618746011,
 					"icon-info": {
 						"purpose": "loading-logo"
 					}
 				},
 				{
+					"name": "icon-64.png",
+					"type": "image/png",
+					"sid": 637428008823171,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
 					"name": "icon-256.png",
 					"type": "image/png",
-					"sid": 829393963904714,
+					"sid": 136885890460076,
 					"icon-info": {
 						"purpose": "app-icon"
 					}

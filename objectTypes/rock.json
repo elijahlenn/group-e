@@ -1,0 +1,63 @@
+{
+	"name": "rock",
+	"plugin-id": "Sprite",
+	"sid": 862157811199128,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Orbit",
+			"name": "Orbit",
+			"sid": 315738392915366
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 108,
+						"height": 98,
+						"originX": 0.4583333333333333,
+						"originY": 0.4744897959183674,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 4132827,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.4583333333333333,
+								0,
+								1,
+								0,
+								1,
+								0.4744897959183674,
+								1,
+								1,
+								0.4583333333333333,
+								1,
+								0,
+								1,
+								0,
+								0.4744897959183674
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 422949512618100,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

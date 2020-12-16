@@ -1,0 +1,63 @@
+{
+	"name": "Rocks",
+	"plugin-id": "Sprite",
+	"sid": 974859772389812,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Bullet",
+			"name": "Bullet",
+			"sid": 493011047933488
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 127,
+						"height": 131,
+						"originX": 0.38976377952755903,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 4304226,
+						"collisionPoly": {
+							"points": [
+								0.15748031496062992,
+								0.1959287531806615,
+								0.43175853018372723,
+								0.13994910941475824,
+								0.5748031496062984,
+								0.2264631043256997,
+								0.8267716535433066,
+								0.45419847328244284,
+								0.816272965879265,
+								0.6997455470737916,
+								0.38976377952755903,
+								0.9083969465648851,
+								0.06299212598425197,
+								0.7455470737913487,
+								0.015748031496062992,
+								0.48982188295165396
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 383133782420646,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

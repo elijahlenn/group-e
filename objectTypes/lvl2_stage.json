@@ -1,0 +1,27 @@
+{
+	"name": "lvl2_stage",
+	"plugin-id": "Tilemap",
+	"sid": 273075165237031,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 426670481822179
+		}
+	],
+	"effectTypes": [],
+	"image": {
+		"width": 29,
+		"height": 32,
+		"originX": 0.5,
+		"originY": 0.5,
+		"originalSource": "",
+		"exportFormat": "png",
+		"exportQuality": 0.8,
+		"imageSpriteId": 4575294,
+		"useCollisionPoly": true
+	},
+	"tile-collision-polys": {}
+}

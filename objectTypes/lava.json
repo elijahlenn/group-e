@@ -1,0 +1,38 @@
+{
+	"name": "lava",
+	"plugin-id": "TiledBg",
+	"sid": 840691540028554,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Bullet",
+			"name": "Bullet",
+			"sid": 592232862024172
+		}
+	],
+	"effectTypes": [],
+	"image": {
+		"width": 24,
+		"height": 18,
+		"originX": -1.6666666666666665,
+		"originY": 9,
+		"originalSource": "",
+		"exportFormat": "png",
+		"exportQuality": 0.8,
+		"imageSpriteId": 9516075,
+		"collisionPoly": {
+			"points": [
+				1,
+				0,
+				1,
+				1,
+				0,
+				1,
+				0,
+				0
+			]
+		},
+		"useCollisionPoly": true
+	}
+}
