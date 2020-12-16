@@ -681,7 +681,7 @@
 				],
 				"sid": 566050607923615,
 				"name": "run",
-				"isLooping": true,
+				"isLooping": false,
 				"isPingPong": false,
 				"repeatCount": 1,
 				"repeatTo": 0,
