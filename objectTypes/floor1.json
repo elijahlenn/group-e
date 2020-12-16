@@ -1,14 +1,14 @@
 {
 	"name": "floor1",
 	"plugin-id": "Sprite",
-	"sid": 454094954492251,
+	"sid": 662408544927839,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [
 		{
 			"behaviorId": "solid",
 			"name": "Solid",
-			"sid": 264353353260964
+			"sid": 616599261579409
 		}
 	],
 	"effectTypes": [],
@@ -24,12 +24,12 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 5737924,
+						"imageSpriteId": 4160136,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 326425504912163,
+				"sid": 721562748712583,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

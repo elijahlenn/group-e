@@ -6,6 +6,42 @@
 			"overriden": 0,
 			"instances": [
 				{
+					"type": "floor1",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 136,
+					"instanceVariables": {},
+					"behaviors": {
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						}
+					},
+					"world": {
+						"x": 899,
+						"y": 521,
+						"width": 1823.6018351179762,
+						"height": 250,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 5.92567743142893,
+						"zElevation": 0
+					}
+				},
+				{
 					"type": "title",
 					"properties": {
 						"initially-visible": true,
@@ -18,39 +54,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 422,
-						"y": 242.5,
-						"width": 874,
-						"height": 485,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "start",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 96,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 210.9684651313543,
-						"y": 464.88084449362174,
-						"width": 183.1960425736723,
-						"height": 40.94412793378905,
+						"x": 432,
+						"y": 234,
+						"width": 862,
+						"height": 496,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -64,7 +71,7 @@
 					}
 				}
 			],
-			"sid": 901585849126489,
+			"sid": 874752202580939,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
 			"color": [
@@ -89,7 +96,7 @@
 			"global": false
 		}
 	],
-	"sid": 283610869686591,
+	"sid": 254898016549205,
 	"nonworld-instances": [],
 	"effectTypes": [],
 	"width": 1708,
